@@ -11,8 +11,8 @@ from reportlab.lib import colors
 PAGE_HEIGHT=defaultPageSize[1]
 PAGE_WIDTH=defaultPageSize[0]
 styles = getSampleStyleSheet()
-titulo = "Cartorio Sumaré"
-subtitulo = "Relatorio Mensal"
+titulo = "Titulo"
+subtitulo = "Subtitulo"
 pageinfo = "platypus example"
 
 def myFirstPage(canvas, doc):

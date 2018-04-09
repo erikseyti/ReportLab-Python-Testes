@@ -39,7 +39,7 @@ def go():
     Story.append(cabecalho)
     Story.append(Spacer(1*cm,0.4*cm))
     for i in range(48):
-        bogustext = ("Id %s. " % i) + ("Nome do Cliente %s." % i)+ ("RG %s." % i) + ("CPF %s." % i) + ("Data Registro %s." % i)
+        bogustext = ("Id %s. " % i) + ("Nome do Cliente %s." % i)+ ("RG %s." % i) + ("CPF %s." % i) + ("Data Registro testetetestestsettsetsetsetsetset setsetetstestestsetestestsetsettesettestsetestsetsetset %s." % i)
         p = Paragraph(bogustext, style)
         Story.append(p)
         Story.append(Spacer(1*cm,0.4*cm))
